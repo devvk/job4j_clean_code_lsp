@@ -38,10 +38,6 @@ public interface Menu extends Iterable<Menu.MenuItemInfo> {
             return name;
         }
 
-        public List<String> getChildren() {
-            return children;
-        }
-
         public ActionDelegate getActionDelegate() {
             return actionDelegate;
         }
